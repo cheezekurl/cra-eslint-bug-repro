@@ -3,6 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const myFunc = () => {
+    if (false) {
+      return 'foo';
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
